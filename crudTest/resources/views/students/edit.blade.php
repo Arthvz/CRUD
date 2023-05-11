@@ -1,7 +1,7 @@
 @extends('students.frame')
 @section('content')
   
-<div class="card" style="margin:20px;">
+<div class="card" style="background-color: #72a68f; margin:20px;">
   <div class="card-header">Editar ESTUDANTES</div>
   <div class="card-body">
        
@@ -15,7 +15,7 @@
         <input type="text" name="email" id="email" value="{{$students->email}}" class="form-control"></br>
         <label>Celular</label></br>
         <input type="text" name="phone" id="phone" value="{{$students->phone}}" class="form-control"></br>
-        <input type="submit" value="Update" class="btn btn-success"></br>
+        <input type="submit" value="Update" class="btn btn-dark"></br>
     </form>
     
   </div>

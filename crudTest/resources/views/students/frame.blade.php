@@ -10,7 +10,7 @@
 </head>
 <body  style="background-color: #131414;">
     
-    <div class="container">
+    <div class="container" style="margin-top: 10%;">
         @yield('content')
     </div>
 
